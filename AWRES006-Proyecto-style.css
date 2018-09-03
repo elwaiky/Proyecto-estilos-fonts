@@ -233,7 +233,7 @@ html,body{height:100%;}
   left: 0;
   opacity: 0.5;
   position: absolute;
-  top: -10;
+  top: 0;
   width: 100%;
 }
 .slider_area{position:relative;}
@@ -241,8 +241,8 @@ html,body{height:100%;}
 .slider_bg {
   width:100%;
   height:100%;
-  top:-10;
-  left:0;
+  top: 0;
+  left: 0;
   background-size:cover;
   position:absolute;
 }
