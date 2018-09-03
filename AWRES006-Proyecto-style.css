@@ -151,7 +151,7 @@ body {
   display:none;
 }
 /*-------------------
-[ 2.1 Mainmenu ] 
+[ 2.1 Mainmenu ] AW2
 ---------------------*/
 .slicknav_menu {
 	display:none;
@@ -167,7 +167,7 @@ body {
   padding: 15px 0;
 }
 #nav a {
-  color: #56bfaa;
+  color: #bad6d1;
   font-size: 14px;
   margin:8px;
   padding: 13px 0;
@@ -206,7 +206,9 @@ body {
 #nav a:hover{
   background:none;
 }
-/*jquery-sticky-menu*/
+/*--------------------------
+***jquery-sticky-menu-AW2***
+----------------------------*/
 .is-sticky header {
   background: #18bf9b none repeat scroll 0 0;
   box-shadow: 0 0px 5px 0 #cd4c4c;
@@ -282,7 +284,7 @@ html,body{height:100%;}
   margin-top: 30px;
   padding: 8px 20px 9px;
 }
-.digital:hover{background:# E74C3C;}
+.digital:hover{background:#E74C3C;}
 /*-------------------
 [ 2.2 Fawesome-Control ]
 ---------------------*/
