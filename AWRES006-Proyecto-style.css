@@ -215,6 +215,7 @@ body {
 }
 .is-sticky #nav a{
   color:#121987;
+.is-sticky:hover{background:#E74C3C;
 }
 .is-sticky #logo_1{
   display:none;
@@ -222,7 +223,6 @@ body {
 .is-sticky #logo_2 {
   display:block;
 }
-.is-sticky:hoverbackground:#E74C3C;}
 /*------------------------------------------------------------------
 [2. Slider ]
 --------------------------------------------------------------------*/
