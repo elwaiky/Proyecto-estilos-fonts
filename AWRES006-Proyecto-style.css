@@ -204,7 +204,7 @@ body {
   border-radius: 0;
 }
 #nav a:hover{
-  background:none;
+  background:#E74C3C;};
 }
 /*--------------------------
 ***jquery-sticky-menu-AW2***
@@ -222,6 +222,7 @@ body {
 .is-sticky #logo_2 {
   display:block;
 }
+.is-sticky header{background:#E74C3C;}
 /*------------------------------------------------------------------
 [2. Slider ]
 --------------------------------------------------------------------*/
