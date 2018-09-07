@@ -150,9 +150,9 @@ body {
 #logo_2 {
   display:none;
 }
-/*-------------------
-[ 2.1 Mainmenu ] AW2
----------------------*/
+/*-------------------------------------------
+[ 2.1 Mainmenu ] Buscar background:#E74C3C AW2**
+-------------------------------------------*/
 .slicknav_menu {
 	display:none;
 }
@@ -172,6 +172,7 @@ body {
   margin:8px;
   padding: 13px 0;
   transition: none;
+  background:#E74C3C;
 }
 #nav   a::before, #nav   a::after {
   display: inline-block;
@@ -204,18 +205,17 @@ body {
   border-radius: 0;
 }
 #nav a:hover{
-  background:#E74C3C;
+  background:none;
 }
-/*--------------------------
-***jquery-sticky-menu-AW2***
-----------------------------*/
+/*---------------------------------------------------
+***jquery-sticky-menu- background:#E74C3C saque  AW2***
+-----------------------------------------------------*/
 .is-sticky header {
-  background: #18bf9b none repeat scroll 0 0;
+  background:#18bf9b none repeat scroll 0 0;
   box-shadow: 0 0px 5px 0 #cd4c4c;
 }
 .is-sticky #nav a{
   color:#121987;
-{background:#E74C3C;
 }
 .is-sticky #logo_1{
   display:none;
