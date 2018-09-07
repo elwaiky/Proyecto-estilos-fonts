@@ -231,7 +231,7 @@ html,body{height:680px;}
 .slider_area .item::after {
   background:#000 none repeat scroll 0 0;
   content: "";
-  height: 680px;
+  height:680px;
   left: 0;
   opacity: 0.5;
   position: absolute;
