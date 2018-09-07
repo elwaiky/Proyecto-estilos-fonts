@@ -150,9 +150,9 @@ body {
 #logo_2 {
   display:none;
 }
-/*-------------------------------------------
-[ 2.1 Mainmenu ] cambio 121987--Saque background:#E74C3C AW2**
--------------------------------------------*/
+/*--------------------------------------------------------------------------------------
+[ 2.1 Mainmenu ] cambio 121987--Saque background:#E74C3C--modif background:#0f0e0d--AW2**
+--------------------------------------------------------------------------------------*/
 .slicknav_menu {
 	display:none;
 }
@@ -172,6 +172,7 @@ body {
   margin:8px;
   padding: 13px 0;
   transition: none;
+ background:#0f0e0d;
 }
 #nav   a::before, #nav   a::after {
   display: inline-block;
@@ -215,7 +216,7 @@ body {
 }
 .is-sticky #nav a{
   color:#E74C3C;
-  background:#1abc9c;
+  background:#0f0e0d;
 }
 .is-sticky #logo_1{
   display:none;
