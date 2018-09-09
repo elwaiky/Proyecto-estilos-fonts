@@ -206,7 +206,7 @@ body {
 #nav a:hover{
   background:none;
 } 
-.is-sticky #nav:hover{background:#0f0e0d;
+#nav:hover{background:#0f0e0d;
 }
 /*---------------------------------------------------
 ***jquery-sticky-menu--#121987 cambio--background:#E74C3C-Puse-  AW2***
