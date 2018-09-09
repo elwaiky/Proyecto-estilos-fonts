@@ -172,7 +172,6 @@ body {
   margin:8px;
   padding: 13px 0;
   transition: none;
- background:#0f0e0d;
 }
 #nav   a::before, #nav   a::after {
   display: inline-block;
@@ -216,7 +215,8 @@ body {
 }
 .is-sticky #nav a{
   color:#E74C3C;
-  background:#0f0e0d;
+}
+.is-sticky #nav:hover{background:#0f0e0d;
 }
 .is-sticky #logo_1{
   display:none;
