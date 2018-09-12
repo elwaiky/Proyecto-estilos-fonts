@@ -151,7 +151,7 @@ body {
   display:none;
 }
 /*--------------------------------------------------------------------------------------
-[ 2.1 Mainmenu ] cambio 121987--Saque background:#E74C3C--modif background:#176e40 otro #8F8989--AW2**
+[ 2.1 Mainmenu ] cambio 121987--Saque background:#E74C3C--modif background:#eead31 otro #8F8989--AW2**
 --------------------------------------------------------------------------------------*/
 .slicknav_menu {
 	display:none;
@@ -167,7 +167,7 @@ body {
   padding: 15px 0;
 }
 #nav a {
-  color: #176e40;
+  color: #eead31;
   font-size: 14px;
   margin:8px;
   padding: 13px 0;
@@ -211,10 +211,10 @@ body {
 -----------------------------------------------------*/
 .is-sticky header {
   background:#18bf9b none repeat scroll 0 0;
-  box-shadow: 0 0px 5px 0 #176e40;
+  box-shadow: 0 0px 5px 0 #E74C3C;
 }
 .is-sticky #nav a{
-  color:#176e40;
+  color:#eead31;
 }
 .is-sticky #logo_1{
   display:none;
