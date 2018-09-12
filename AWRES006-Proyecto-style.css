@@ -151,7 +151,7 @@ body {
   display:none;
 }
 /*--------------------------------------------------------------------------------------
-[ 2.1 Mainmenu ] cambio 121987--Saque background:#E74C3C--modif background:#0f0e0d otro #8F8989--AW2**
+[ 2.1 Mainmenu ] cambio 121987--Saque background:#E74C3C--modif background:#176e40 otro #8F8989--AW2**
 --------------------------------------------------------------------------------------*/
 .slicknav_menu {
 	display:none;
@@ -167,7 +167,7 @@ body {
   padding: 15px 0;
 }
 #nav a {
-  color: #E74C3C;
+  color: #176e40;
   font-size: 14px;
   margin:8px;
   padding: 13px 0;
