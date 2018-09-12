@@ -151,7 +151,7 @@ body {
   display:none;
 }
 /*--------------------------------------------------------------------------------------
-[ 2.1 Mainmenu ] cambio 121987--Saque background:#E74C3C--modif background:#0f0e0d--AW2**
+[ 2.1 Mainmenu ] cambio 121987--Saque background:#E74C3C--modif background:#0f0e0d otro #8F8989--AW2**
 --------------------------------------------------------------------------------------*/
 .slicknav_menu {
 	display:none;
@@ -204,14 +204,14 @@ body {
   border-radius: 0;
 }
 #nav a:hover{
-  background:#0f0e0d;
+  background:#8F8989;
 }
 /*---------------------------------------------------
 ***jquery-sticky-menu--#121987 cambio--background:#E74C3C-Puse-  AW2***
 -----------------------------------------------------*/
 .is-sticky header {
   background:#18bf9b none repeat scroll 0 0;
-  box-shadow: 0 0px 5px 0 #cd4c4c;
+  box-shadow: 0 0px 5px 0 #176e40;
 }
 .is-sticky #nav a{
   color:#E74C3C;
