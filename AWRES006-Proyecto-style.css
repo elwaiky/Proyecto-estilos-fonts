@@ -767,7 +767,7 @@ html,body{height:680px;}
 [13. Footer -- #E74C3C -- ]
 --------------------------------------------------------------------*/
 footer {
-  background: #1abc9cC none repeat scroll 0 0;
+  background: #E74C3C none repeat scroll 0 0;
   padding: 30px 0;
 }
 .footer_copyright p {
@@ -776,7 +776,7 @@ footer {
 }
 /*ScrollUp*/
 #scrollUp {
-  background-color: #1abc9cC;
+  background-color: #E74C3C;
   border-radius: 2px;
   padding: 5px 8px;
   right: 45px;
