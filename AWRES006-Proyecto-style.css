@@ -313,7 +313,7 @@ html,body{height:680px;}
   width: 10px;
 }
 .slider_indicators.carousel-indicators .active{
-  background-color: #2e6da4;
+  background-color: #E74C3C;
 }
 .slider_indicators.carousel-indicators li {
   border-radius: 0;
