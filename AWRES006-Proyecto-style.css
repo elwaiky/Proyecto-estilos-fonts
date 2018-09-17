@@ -313,13 +313,13 @@ html,body{height:680px;}
   width: 10px;
 }
 .slider_indicators.carousel-indicators .active{
-  background-color: #2e6da4;
+  background-color: #E74C3C;
 }
 .slider_indicators.carousel-indicators li {
   border-radius: 0;
   transform: rotate(45deg);
 }
-.carousel-indicators.single_blog_indicators li{border:1px solid #E74C3C;}
+.carousel-indicators.single_blog_indicators li{border:1px solid #2e6da4;}
 /*------------------------------------------------------------------
 [3. About ]
 --------------------------------------------------------------------*/
