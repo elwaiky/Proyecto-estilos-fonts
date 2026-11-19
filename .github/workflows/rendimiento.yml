@@ -1,0 +1,40 @@
+yaml
+name: Auditoria de Rendimiento Waiky
+
+on:
+  schedule:
+    # Se ejecuta todos los días a las 09:00 AM (hora de Brasil / UTC-3)
+    - cron: '0 12 * * *'
+  workflow_dispatch: # Te permite ejecutarlo manualmente cuando quieras
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar configuracion
+        uses: actions/checkout@v4
+
+      - name: Ejecutar prueba de rendimiento en Blogger
+        id: lhci
+        uses: treosh/lighthouse-ci-action@v11
+        with:
+          configPath: './lighthouserc.json'
+          uploadArtifacts: true
+
+      - name: Enviar alerta por correo si falla el rendimiento
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.GMAIL_USER }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: "⚠️ Alerta de Rendimiento: Artesanía a Mano Waiky"
+          to: loswaikys@gmail.com
+          from: "Monitor Waiky <loswaikys@gmail.com>"
+          body: |
+            Hola,
+            
+            Se ha detectado una caída en el rendimiento de https://artesaniaamanowaiky.blogspot.com/
+            Revisa los detalles y el reporte completo en la pestaña Actions de tu repositorio en GitHub.
