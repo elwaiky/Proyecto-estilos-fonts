@@ -1,0 +1,18 @@
+json
+{
+  "ci": {
+    "collect": {
+      "url": [
+        "https://artesaniaamanowaiky.blogspot.com/"
+      ],
+      "numberOfRuns": 1
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": ["error", {"minScore": 0.70}],
+        "categories:accessibility": ["warn", {"minScore": 0.80}],
+        "categories:seo": ["warn", {"minScore": 0.80}]
+      }
+    }
+  }
+}
