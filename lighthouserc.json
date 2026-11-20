@@ -3,7 +3,12 @@ json
   "ci": {
     "collect": {
       "url": [
-        "https://artesaniaamanowaiky.blogspot.com/"
+        "https://blogspot.com",
+        "https://blogspot.comsearch/label/collares",
+        "https://blogspot.comsearch/label/pulseras",
+        "https://blogspot.comsearch/label/aretes",
+        "https://blogspot.comsearch/label/anillos",
+        "https://blogspot.comsearch/label/accesorios"
       ],
       "numberOfRuns": 1
     },
